@@ -1,0 +1,22 @@
+{
+  "name": "test-semantic-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablocordova/test-semantic-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablocordova/test-semantic-release/issues"
+  },
+  "homepage": "https://github.com/pablocordova/test-semantic-release#readme",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1"
+  }
+}

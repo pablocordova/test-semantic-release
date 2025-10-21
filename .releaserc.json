@@ -1,0 +1,21 @@
+{
+  "branches": ["main"],
+  "repositoryUrl": "git@github.com:pablocordova/test-semantic-release.git",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["package.json", "package-lock.json"],
+        "message": "chore(package number): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+        "addChannel": false
+      }
+    ]
+  ]
+}
